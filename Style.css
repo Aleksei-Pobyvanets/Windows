@@ -48,3 +48,47 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* banner */
+.up_menu {
+	background-color: #37495e;
+	width: 100%;
+	height: 70px;
+}
+.banner {
+	width: 1400px;
+	height: 640px; 
+	background: url("img/banner.png") no-repeat center top;
+	background-size: cover;
+	margin: 0 auto;
+	position: relative;
+}
+.wrapper {
+	width: 1080px;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+}
+/* navig */
+.nav {
+	font-family: "Open Sans - Semibold";
+	text-align: right;
+	text-decoration: none;
+    list-style: none;
+    font-size: 14px;
+	font-weight: 400;
+	display: block;
+	padding: 28px 0;
+}
+.menu_item {
+	display: inline;
+}
+.menu_link {
+	opacity: 0.69;
+	color: #ffffff;
+	font-family: "Open Sans - Semibold";
+	font-size: 14px;
+	font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    padding: 0px 0px 0px 49px;
+}
