@@ -140,8 +140,25 @@ table {
 
 }
 .try_your {
-
+	background: #EEEEEE;
+	display: block;
+	margin-left: 900px;
+	width: 300px;
 }
 .h1 {
-	
+	color: #333333;
+	font-family: "Open Sans";
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+    width: 300px;
+    position: relative;
+}
+.container_name_email {
+	height: 255px;
+	width: 300px;
+	display: block;
+	margin-left: 900px;
+	background: #ffffff;
 }
