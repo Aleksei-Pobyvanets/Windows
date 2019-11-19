@@ -57,7 +57,7 @@ table {
 .banner {
 	width: 1400px;
 	height: 640px; 
-	background: url("img/banner.png") no-repeat center top;
+	background: url("img/banner.png") no-repeat center;
 	background-size: cover;
 	margin: 0 auto;
 	position: relative;
@@ -70,7 +70,7 @@ table {
 }
 /* navig */
 .nav {
-	font-family: "Open Sans - Semibold";
+	font-family: "Open Sans" ;
 	text-align: right;
 	text-decoration: none;
     list-style: none;
@@ -85,10 +85,63 @@ table {
 .menu_link {
 	opacity: 0.69;
 	color: #ffffff;
-	font-family: "Open Sans - Semibold";
+	font-family: "Open Sans";
 	font-size: 14px;
 	font-weight: 400;
     text-align: center;
     text-decoration: none;
     padding: 0px 0px 0px 49px;
+}
+/* banner text */
+.mein_part_text {
+	color: #ffffff;
+	font-family: Raleway;
+	font-size: 36px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.position {
+	display: block;
+    position: relative;
+    top: 203px;
+}
+.text {
+	opacity: 0.8;
+	color: #ffffff;
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 23px;
+}
+.position1 {
+	display: block;
+    position: relative;
+    top: 300px;
+}
+.buttom_top {
+	position: relative;
+    top: 390px;
+    display: block;
+}
+.btn {
+    vertical-align: middle;
+    padding: 15px 20px 15px;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 15px;
+	font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+/* box */
+.container {
+
+}
+.try_your {
+
+}
+.h1 {
+	
 }
