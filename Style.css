@@ -55,7 +55,6 @@ table {
 	height: 70px;
 }
 .banner {
-	width: 1400px;
 	height: 640px; 
 	background: url("img/banner.png") no-repeat center;
 	background-size: cover;
@@ -142,7 +141,6 @@ table {
 .try_your {
 	background: #EEEEEE;
 	display: block;
-	margin-left: 900px;
 	width: 300px;
 }
 .h1 {
@@ -159,6 +157,68 @@ table {
 	height: 255px;
 	width: 300px;
 	display: block;
-	margin-left: 900px;
 	background: #ffffff;
+	margin-bottom: 21px;
+}
+.box {
+	display: block;
+    text-align: -webkit-right;
+}
+.name {
+	width: 275px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding: 25px 0px 0px 0px;
+}
+.name1 {
+	width: 275px;
+	height: 31px;
+	box-shadow: 0 1px 0 rgba(0, 0, 1, 0.16);
+	border: 0px;
+}
+.email {
+	width: 275px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding: 45px 0px 0px 0px;
+}
+.email1 {
+	width: 275px;
+	height: 31px;
+	box-shadow: 0 1px 0 rgba(0, 0, 1, 0.16);
+	border: 0px;
+}
+.password {
+	width: 275px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding: 45px 0px 0px 0px;
+}
+.password1 {
+	width: 275px;
+	height: 31px;
+	box-shadow: 0 1px 0 rgba(0, 0, 1, 0.16);
+	border: 0px;
+}
+.try_your1 {
+	width: 360px;
+	height: 54px;
+	background:#ff8b38; 
+}
+.try_your_btn {
+	vertical-align: middle;
+	width: 300px;
+    padding: 20px 103px 20px;
+    border: 0px solid #ffffff;
+    background-color: #ff8b38;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0 auto;
 }
