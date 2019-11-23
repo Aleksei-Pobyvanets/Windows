@@ -211,7 +211,7 @@ table {
 .try_your_btn {
 	vertical-align: middle;
 	width: 300px;
-    padding: 20px 103px 20px;
+    padding: 20px 103px 20px 102px;
     border: 0px solid #ffffff;
     background-color: #ff8b38;
     color: #ffffff;
@@ -336,8 +336,10 @@ table {
 	background-size: cover;
 	width: 453px;
 	height: 303px;
+	position: absolute;
+	top: 130px;
 }
-._h_21 {
+.top {
 	color: #212121;
 	font-family: "Open Sans";
 	font-size: 20px;
@@ -347,5 +349,25 @@ table {
 .wrap1 {
 	position: relative;
 	display: block;
-	
+}
+.text_main1 {
+	color: #86878b;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.text_main1:before {
+	content: "";
+    height: 2px;
+    width: 100%;
+    background-color: #ff8b38;
+    position: absolute;
+    width: 64px;
+}
+.position5 {
+	width: 413px;
+	margin-left: 72.3%;
+	display: block;
+    position: relative;
 }
