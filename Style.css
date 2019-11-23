@@ -322,3 +322,30 @@ table {
 .text_main {
 	margin-bottom: 59px;
 }
+.img_u255 {
+	background: url("img/image_u255.png") no-repeat center;
+	background-size: cover;
+}
+/* Sub list */
+.cont_sub {
+	height: 596px;
+	background-color: #ffffff;
+}
+.image_left {
+	background: url("img/image_left.png") no-repeat center;
+	background-size: cover;
+	width: 453px;
+	height: 303px;
+}
+._h_21 {
+	color: #212121;
+	font-family: "Open Sans";
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 43px;
+}
+.wrap1 {
+	position: relative;
+	display: block;
+	
+}
