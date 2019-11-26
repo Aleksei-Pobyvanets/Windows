@@ -550,3 +550,140 @@ table {
 	width: 124px;
     margin: 0 auto;
 }
+/* PRICING OPTIONS */
+.container3 {
+	height: 950px;
+	background-color: #f5f5f5;
+}
+.posi_2 {
+	position: relative;
+    display: block;
+    top: 100px;
+    margin-bottom: 250px;
+}
+.why_h1_1 {
+	color: #212121;
+	font-family: Raleway;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 43px;
+	text-transform: uppercase;
+	width: 410px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+/* 1rst */
+.basic {
+	display: inline-block;
+    position: absolute;
+    max-width: 343px;
+}
+.basic_2 {
+	display: inline-block;
+    position: absolute;
+    max-width: 343px;
+    margin-left: 383px;
+    margin-top: -40px;
+}
+.basic_3 {
+	display: inline-block;
+    position: absolute;
+    max-width: 343px;
+    margin-left: 764px;
+}
+.Basic1 {
+	border: 1px solid #f5f5f5;
+	width: 343px;
+	height: 59px;
+	background: #37495e;
+}
+.Basic2 {
+	border: 1px solid #f5f5f5;
+	width: 344px;
+	height: 100px;
+	background: #37495e;
+}
+.Basic3 {
+	border: 1px solid #f5f5f5;
+	width: 343px;
+	height: 51px;
+	background: #37495e;
+}
+.basic_text1 {
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 24px;
+	width: 51px;
+	margin: 0 auto;
+	padding: 20px 0px 0px 0px;
+    position: relative;
+}
+.basic_text2 {
+	width: 75px;
+	color: #ffffff;
+	font-family: Raleway;
+	font-size: 94px;
+	font-weight: 700;
+	line-height: 24px;
+	margin: 0 auto;
+	padding: 40px 0px 0px 0px;
+    position: relative;
+}
+.basic_text3 {
+	width: 72px;
+	opacity: 0.5;
+	color: #ffffff;
+	font-family: "Open Sans - Semibold";
+	font-size: 14px;
+	font-weight: 400;
+	font-style: italic;
+	line-height: 24px;
+	margin: 0 auto;
+	padding: 15px 0px 0px 0px;
+    position: relative;
+}
+.Basic4 {
+	width: 344px;
+	height: 5px;
+	background: #ff8b38;
+}
+.Basic5 {
+	border: 1px solid #f5f5f5;
+	width: 344px;
+	height: 40px;
+	background: #ffffff;
+}
+.basic_text {
+	color: #86878b;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 10px 0px 0px 0px;
+    position: relative;
+}
+.Basic4_4 {
+	width: 343px;
+	height: 40px;
+	background: #ff8b38;
+}
+.basic_text4_4 {
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform: uppercase;
+	padding: 8px 0px 0px 0px;
+    position: relative;
+    text-align: center;
+}
+/* WHAT OUR CUSTOMERS ARE SAYING */
+.container4 {
+	height: 591px;
+	background-color: #ffffff;
+}
