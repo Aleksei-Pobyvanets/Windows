@@ -687,3 +687,136 @@ table {
 	height: 591px;
 	background-color: #ffffff;
 }
+.otcuvu {
+    width: 273px;
+    display: inline-block;
+    position: relative;
+    top: -50px;
+    margin-bottom: 100px;   
+}
+.otcuvu2 {
+    width: 273px;
+    display: inline-block;
+    position: relative;
+    padding: 0px 125px 0px 125px;
+    top: -50px;
+    margin-bottom: 100px;
+}
+.otcuvu3 {
+    width: 273px;
+    display: inline-block;
+    position: relative;
+    top: -50px;
+    margin-bottom: 100px;
+}
+.cont10 {
+	width: 273px;
+	height: 135px;
+	display: block;
+	background: #f5f5f5;
+	margin-bottom: 25px;
+}
+.txt_ot {
+	width: 248px;
+	height: 82px;
+	color: #86878b;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 400;
+	font-style: italic;
+	position: relative;
+	padding: 30px 0px 0px 0px;
+    margin: auto;
+}
+.img_avatar {
+	background: url("img/avatar1.png") no-repeat center;
+	background-size: cover;	
+	width: 72px;
+	height: 72px;
+	position: absolute;
+    display: block;
+}
+.posi_avatar {
+	position: relative;
+    display: block;
+    margin-left: 100px;
+    top: 18px;
+}
+.top_jeremy {
+	color: #333333;
+	font-family: "Open Sans";
+	font-size: 20px;
+	font-weight: 700;
+	width: 98px;
+	margin-bottom: 10px; 
+}
+.toph4 {
+	color: #86878b;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 400;
+	width: 57px;
+}
+/* STYLISH */
+.container5 {
+	background: url("img/customPanel.png") no-repeat center;
+	background-size: cover;	
+	height: 320px;	
+}
+.why_h1_st {
+	width: 420px;
+	color: #ffffff;
+	font-family: Raleway;
+	font-size: 36px;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+	margin: auto;
+    margin-bottom: 50px;
+}
+.text_st {
+	width: 740px;
+	opacity: 0.8;
+	color: #ffffff;
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: 300;
+	text-align: center;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.posi_st {
+	position: relative;
+    display: block;
+    top: 80px;
+}
+.text_st:before {
+	content: "";
+    height: 2px;
+    background-color: #ffffff;
+    position: absolute;
+    width: 64px;
+    align-content: center;
+    display: block;
+    margin-left: 32%;
+    top: 60px;
+}
+.btn_st {
+	vertical-align: middle;
+    padding: 15px 20px 15px;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.btn_st1 {
+	width: 130px;
+    margin: auto;
+    display: block;
+    position: relative;
+    top: 50px;
+}
