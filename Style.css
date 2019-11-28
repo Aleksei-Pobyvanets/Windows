@@ -930,3 +930,25 @@ table {
     position: relative;
     margin-top: -50px;
 }
+/* Container 7 */
+.container7 {
+	height: 85px;
+	background-color: #37495e;
+}
+.footer {
+	width: 320px;
+	top: 20px;
+	margin: 0 auto;
+}
+._2016 {
+	opacity: 0.5;
+	color: #ffffff;
+	font-family: "Myriad Pro";
+	font-size: 12px;
+	font-weight: 400;
+	width: 90px;
+	text-align: center;
+	position: relative;
+    margin: auto;
+    top: 60px;
+}
