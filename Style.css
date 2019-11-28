@@ -232,15 +232,17 @@ table {
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.38);
 	background-color: #ffffff;
 	width: 100%;
-	height: 105px;
+	height: 150px;
 }
 ._h2 {
 	color: #333333;
 	font-family: "Open Sans";
 	font-size: 20px;
 	font-weight: 700;
-	width: 150px;
+	width: 125px;
     padding: 20px 0px 12px;
+    margin: auto;
+    margin-bottom: 30px;
 }
 .text1 {
 	color: #86878b;
@@ -856,6 +858,75 @@ table {
     width: 64px;
     align-content: center;
     display: block;
-    margin-left: 48%;
+    margin-left: 47%;
     top: -30px;
+}
+.email_position {
+	position: relative;
+    display: inline-block;
+}
+.container_email1 {
+    margin-top: -50px;
+    width: 530px;
+    position: relative;
+    display: inline-block;
+}
+.name11 {
+	margin-bottom: 30px;
+}
+.name1_1 {
+    width: 530px;
+    height: 31px;
+    box-shadow: 0 1px 0 rgba(0, 0, 1, 0.16);
+    border: 0px;
+    color: #bdbdbd;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 400;
+}
+.email11 {
+    margin-bottom: 30px;
+}
+.email1_1 {
+	width: 530px;
+    height: 31px;
+    box-shadow: 0 1px 0 rgba(0, 0, 1, 0.16);
+    border: 0px;
+    color: #bdbdbd;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 400;
+}
+.password11 {
+
+}
+.password1_1 {
+	width: 530px;
+    height: 31px;
+    box-shadow: 0 1px 0 rgba(0, 0, 1, 0.16);
+    border: 0px;
+    color: #bdbdbd;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 400;
+}
+.message_posi {
+	display: inline-block;
+	position: relative;
+} 
+.message {
+	position: relative;
+    color: #bdbdbd;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    width: 430px;
+    height: 159px;
+    margin-left: 110px;
+    top: 13px;
+}
+.email_all {
+    display: block;
+    position: relative;
+    margin-top: -50px;
 }
