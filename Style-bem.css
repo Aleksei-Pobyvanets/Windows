@@ -182,3 +182,90 @@ table {
 	width: 135px;
     text-align: center;
 }
+
+/* box */
+
+.box {
+	width: 300px;
+    position: absolute;
+    top: 150px;
+    left: 55%;
+    transform: translateX(50%);
+}
+.box__text{
+	background: #EEEEEE;
+    display: block;
+    width: 300px;
+    padding: 10px 0px 10px 0px;
+}
+.text-try {
+	color: #333333;
+	font-family: "Open Sans";
+	font-size: 20px;
+	font-weight: 700;
+	width: 252px;
+	margin: auto;
+}
+.box__container-name-email {
+	height: 255px;
+	width: 300px;
+	display: block;
+	background: #ffffff;
+	margin-bottom: 21px;
+}
+.box__name {
+	width: 275px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0px 0px 0px;
+}
+.name {
+	width: 275px;
+	height: 31px;
+	box-shadow: 0 1px 0 rgba(0, 0, 1, 0.16);
+	border: 0px;
+}
+.box__email {
+	width: 275px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding: 20px 0px 0px 0px;
+}
+.email {
+	width: 275px;
+	height: 31px;
+	box-shadow: 0 1px 0 rgba(0, 0, 1, 0.16);
+	border: 0px;
+}
+.box__password {
+	width: 275px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding: 20px 0px 0px 0px;
+}
+.password {
+	width: 275px;
+	height: 31px;
+	box-shadow: 0 1px 0 rgba(0, 0, 1, 0.16);
+	border: 0px;
+}
+.box__btn {
+
+}
+.box__btn-btn {
+	vertical-align: middle;
+	width: 300px;
+    padding: 20px 103px 20px 102px;
+    border: 0px solid #ffffff;
+    background-color: #ff8b38;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0 auto;
+}
