@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .wrapper {
         width: 700px;
         display: block;
@@ -51,7 +51,9 @@
         color: #ffffff;
         opacity: 1;
     }
+
     /* box */
+
     .banner {
         height: 640px; 
         background: url("img/banner.png") no-repeat center;
@@ -69,7 +71,7 @@
         display: block;
         position: absolute;
         top: 200px;
-        left: 40%;
+        left: 50%;
         transform: translateX(-50%);
     }
     .headline__text {
@@ -123,8 +125,7 @@
     .btn {
         vertical-align: middle;
         padding: 15px 20px 15px;
-        border: 2px solid #ffffff;
-        background-color: transparent;
+        background-color: #ff8b38;
         color: #ffffff;
         font-family: "Open Sans";
         font-size: 15px;
@@ -133,6 +134,228 @@
         text-decoration: none;
         width: 135px;
         text-align: center;
+    }
+
+    /*  */
+
+    .box {
+        width: 300px;
+        position: absolute;
+        top: 150px;
+        left: 38%;
+        transform: translateX(50%);
+    }
+    .box__text {
+        background: #EEEEEE;
+        display: block;
+        width: 300px;
+        padding: 10px 0px 10px 0px;
+    }
+    .text-try {
+        color: #333333;
+        font-family: "Open Sans";
+        font-size: 20px;
+        font-weight: 700;
+        width: 252px;
+        margin: auto;
+    }
+    .box__container-name-email {
+        height: 255px;
+        width: 300px;
+        display: block;
+        background: #ffffff;
+        margin-bottom: 21px;
+    }
+    .box__name {
+        width: 275px;
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        padding: 15px 0px 0px 0px;
+    }
+    .name {
+        width: 275px;
+        height: 31px;
+        box-shadow: 0 1px 0 rgba(0, 0, 1, 0.16);
+        border: 0px;
+    }
+    .box__email {
+        width: 275px;
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        padding: 20px 0px 0px 0px;
+    }
+    .email {
+        width: 275px;
+        height: 31px;
+        box-shadow: 0 1px 0 rgba(0, 0, 1, 0.16);
+        border: 0px;
+    }
+    .box__password {
+        width: 275px;
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        padding: 20px 0px 0px 0px;
+    }
+    .password {
+        width: 275px;
+        height: 31px;
+        box-shadow: 0 1px 0 rgba(0, 0, 1, 0.16);
+        border: 0px;
+    }
+    
+    .box__btn-btn {
+        vertical-align: middle;
+        width: 300px;
+        padding: 20px 103px 20px 102px;
+        border: 0px solid #ffffff;
+        background-color: #ff8b38;
+        color: #ffffff;
+        font-family: "Open Sans";
+        font-size: 15px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin: 0 auto;
+    }
+
+    /*  */
+
+    .panel {
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.38);
+        background-color: #ffffff;
+        width: 100%;
+        height: 130px;
+        margin-top: -10px;
+    }
+    .panel__wrapper {
+        width: 700px;
+        display: block;
+        position: relative;
+        margin: 0 auto;
+    }
+    .panel__heading {
+        color: #333333;
+        font-family: "Open Sans";
+        font-size: 20px;
+        font-weight: 700;
+        width: 125px;
+        padding: 20px 0px 12px;
+    }
+    .panel__text {
+        color: #86878b;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        width: 300px;
+    }
+
+    /*  */
+
+    .tab__container {
+        height: 595px;
+        background-color: #f5f5f5
+    }
+    .tab__wrapper {
+        width: 700px;
+        display: block;
+        position: relative;
+        margin: 0 auto;
+    }
+    .tab__wrap {
+        position: relative;
+        display: block;
+        top: 150px;
+    }
+    .tab__position-btn-tab {
+        display: -webkit-box;
+    }
+    .btn-tab {
+        background-color: #37495e;
+        vertical-align: middle;
+        text-decoration: none;
+        color: #ffffff;
+        border: 2px color #37495e;
+        font-family: "Open Sans";
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 20px;
+        text-transform: uppercase;
+        padding: 50px 35px 50px 35px;
+    }
+    .btn_tab:hover {
+        border: 2px color #ff8b38;
+        background: #ff8b38;
+    }
+    .tabPosition {
+        position: relative;
+        display: block;
+    }
+    .tabPosition__tab-btn {
+        width: 300px;
+        position: absolute;
+        top: -120px;
+        left: 5%;
+        transform: translateX(50%);
+    }
+    .tabPosition__heading {
+        margin-bottom: 59px;
+        width: 350px;
+        color: #000000;
+        font-family: "Open Sans";
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .tabPosition__text {
+        position: relative;
+        display: block;
+    }
+    .tabPosition__text-lorem {
+        width: 476px;
+        height: 132px;
+        color: #86878b;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .text-lorem {
+        color: #86878b;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        position: relative;
+        margin-bottom: 100px;
+    }
+    .tabPosition__btn {
+        position: relative;
+        display: block;
+    }
+    .btn {
+        background-color: #ff8b38;
+        vertical-align: middle;
+        padding: 15px 20px 15px;
+        border: 2px solid #ff8b38;
+        color: #ffffff;
+        font-family: "Open Sans";
+        font-size: 15px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    .btn:hover {
+        border: 2px solid #ffffff;
+    }
+    .tabPosition__img {
+        position: absolute;
+        display: block;
+        top: 60px;
+        left: 55%;
+        transform: translateX(50%);
     }
 }
 
