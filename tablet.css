@@ -141,7 +141,7 @@
     .box {
         width: 300px;
         position: absolute;
-        top: 150px;
+        top: 200px;
         left: 38%;
         transform: translateX(50%);
     }
@@ -273,6 +273,15 @@
     .tab__position-btn-tab {
         display: -webkit-box;
     }
+    .tabPosition__img {
+        position: absolute;
+        display: block;
+        top: 60px;
+        left: 35%;
+        height: 0px;
+        width: 0px;
+        transform: translateX(50%);
+    }
     .btn-tab {
         background-color: #37495e;
         vertical-align: middle;
@@ -303,11 +312,19 @@
     }
     .tabPosition__heading {
         margin-bottom: 40px;
-        width: 300px;
+        width: 400px;
         color: #000000;
         font-family: "Open Sans";
         font-size: 20px;
         font-weight: 700;
+    }
+    .tabPosition__btn-design {
+        position: relative;
+        display: block;
+        width: 135px;
+        margin: auto;
+        top: -25px;
+        left: -12px;
     }
     .tabPosition__text {
         position: relative;
@@ -330,7 +347,7 @@
         line-height: 20px;
         position: relative;
         margin-bottom: 100px;
-        width: 300px;
+        width: 400px;
     }
     .tabPosition__btn {
         position: relative;
@@ -540,6 +557,159 @@
     .basicbox-enterprise {
         max-width: 343px;
         margin-left: 0px;
+    }
+    /*  */
+    .custom__container {
+        height: 596px;
+        background-color: #ffffff;
+    }
+    .custom__wrapper {
+        width: 700px;
+        display: block;
+        position: relative;
+        margin: 0 auto;
+    }
+    .reviews__position {
+        align-content: center;
+        display: block;
+        position: absolute;
+        top: 350px;
+        width: 273px;
+        left: 30%;
+    }
+    .reviews {
+        width: 273px;
+        display: block;
+        position: absolute;
+        top: -50px;
+        margin-bottom: 80px;
+    }
+    .reviews-free {
+        width: 273px;
+        display: block;
+        position: relative;
+        top: -50px;
+        margin-bottom: 80px;
+    }
+    .reviews {
+        width: 273px;
+        display: block;
+        position: absolute;
+        top: -50px;
+        margin-bottom: 80px;
+    }
+    .reviews-free {
+        margin-bottom: 0px;
+        padding: 0px 0px 0px 0px;
+    }
+    /*  */
+    .text-design:before {
+        content: "";
+        height: 2px;
+        background-color: #ffffff;
+        position: absolute;
+        width: 64px;
+        align-content: center;
+        display: block;
+        margin-left: 45%;
+        top: 60px;
+    }
+    .design__text-design {
+        width: 700px;
+        opacity: 0.8;
+        color: #ffffff;
+        font-family: Raleway;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    .design__wrapper {
+        width: 700px;
+        display: block;
+        position: relative;
+        margin: 0 auto;
+    }
+    .design {
+        background: url(img/customPanel.png) no-repeat center;
+        background-size: cover;
+        height: 320px;
+        width: 768px;
+    }
+    /*  */
+    .contactus {
+        height: 970px;
+        background-color: #ffffff;
+    }
+    .contactus__wrapper {
+        width: 700px;
+        display: block;
+        position: relative;
+        margin: 0 auto;
+    }
+    .contactus__email-all {
+        margin-top: -50px;
+        width: 530px;
+        position: relative;
+        display: block;
+        margin: auto;
+    }
+    .contactus__email-position {
+        position: relative;
+        display: inline-block;
+        top: -50px;
+    }
+    .contactus__message-posi {
+        display: block;
+        position: relative;
+        top: 60px;
+        width: 530px;
+        margin: auto;
+        margin-bottom: 130px;
+        left: -50%;
+    }
+    .message {
+        position: relative;
+        color: #bdbdbd;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        width: 530px;
+        height: 159px;
+        top: 13px;
+    }
+    .tabPosition__btn-contact {
+        position: relative;
+        display: block;
+        width: 180px;
+        margin: auto;
+        top: 0px;
+    }
+    .message {
+        margin-left: 0px;
+    }
+    /*  */
+    .footer__wrapper {
+        position: relative;
+        display: block;
+        width: 700px;
+        margin: 0 auto;
+    }
+    .btn-contact {
+        background-color: #ff8b38;
+        vertical-align: middle;
+        padding: 15px 20px 15px;
+        border: 2px solid #ff8b38;
+        color: #ffffff;
+        font-family: "Open Sans";
+        font-size: 15px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-decoration: none;
+        width: 135px;
+        text-align: center;
     }
 }
 
