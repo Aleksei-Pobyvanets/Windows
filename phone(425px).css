@@ -1,0 +1,298 @@
+@media screen and (max-width: 425px) {
+    .menu__wrapper {
+        width: 405px;
+        display: block;
+        position: relative;
+        margin: 0 auto;
+        height: 70px;
+    }
+    .menu {
+        background-color: #37495e;
+        width: 100%;
+        height: 100px;
+    }
+    .icon {
+        width: 190px;
+        height: 29px;
+        position: relative;
+        left: 25%;
+    }
+    .menu__nav {
+        font-family: "Open Sans";
+        text-align: center;
+        text-decoration: none;
+        list-style: none;
+        font-size: 14px;
+        font-weight: 400;
+        display: block;
+        margin-top: 15px;
+        word-spacing: 25px;
+    }
+    .menu__link {
+        opacity: 0.69;
+        color: #ffffff;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        text-decoration: none;
+        padding: 0px 0px 0px 0px;
+    }
+    /*  */
+    .banner {
+        height: 860px;
+        background: url(img/banner.png) no-repeat center;
+        background-size: cover;
+        margin: 0 auto;
+        position: relative;
+    }
+    .headline {
+        display: block;
+        position: absolute;
+        top: 200px;
+    }
+    .headline {
+        display: block;
+        position: absolute;
+        top: 200px;
+        left: 0%;
+        transform: translateX(0%);
+    }
+    .hedline__wrapper {
+        width: 405px;
+        display: block;
+        position: relative;
+        margin: 0 auto;
+    }
+    .modern {
+        position: relative;
+        margin-bottom: 30px;
+        width: 300px;
+        top: -60px;
+        margin: auto;
+        text-align: center;
+    }
+    .headline__text {
+        opacity: 0.8;
+        color: #ffffff;
+        font-family: Raleway;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 23px;
+        margin-bottom: 50px;
+        width: 300px;
+        margin: auto;
+        text-align: center;
+        top: -40px;
+    }
+    .headline__btn {
+        position: relative;
+        display: block;
+        width: 135px;
+        top: 200px;
+        margin: auto;
+        left: -2.5%;
+    }
+    .btn {
+        background-color: #ff8b38;
+        vertical-align: middle;
+        padding: 15px 20px 15px;
+        border: 2px solid #ff8b38;
+        color: #ffffff;
+        font-family: "Open Sans";
+        font-size: 15px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    .box {
+        width: 300px;
+        position: relative;
+        top: -540px;
+        margin: auto;
+        left: 0%;
+        transform: translateX(0%);
+    }
+    /*  */
+    .panel {
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.38);
+        background-color: #ffffff;
+        width: 100%;
+        height: 200px;
+        margin-top: -364px;
+    }
+    .panel__wrapper {
+        width: 405px;
+        display: block;
+        position: relative;
+        margin: 0 auto;
+    }
+    .panel__heading {
+        color: #333333;
+        font-family: "Open Sans";
+        font-size: 20px;
+        font-weight: 700;
+        width: 125px;
+        padding: 20px 0px 12px;
+        margin: auto;
+    }
+    .panel__text {
+        color: #86878b;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        width: 400px;
+        text-align: center;
+        margin: auto;
+    }
+    /*  */
+    .tab__wrapper {
+        width: 405px;
+        display: block;
+        position: relative;
+        margin: 0 auto;
+    }
+    .tabPosition__tab-btn {
+        width: 300px;
+        position: absolute;
+        top: -170px;
+        left: -2%;
+        transform: translateX(50%);
+    }
+    .tabPosition__heading {
+        margin-bottom: 40px;
+        width: 250px;
+        color: #000000;
+        font-family: "Open Sans";
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .tabPosition__text {
+        position: relative;
+        display: block;
+        width: 250px;
+    }
+    .text-lorem {
+        color: #86878b;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        position: relative;
+        margin-bottom: 100px;
+        width: 250px;
+    }
+    .tabPosition__btn {
+        position: relative;
+        display: block;
+        top: 50px;
+    }
+    /*  */
+    .contsub {
+        height: 540px;
+        background-color: #ffffff;
+    }
+    .contsub__wrapper {
+        width: 405px;
+        display: block;
+        position: relative;
+        margin: 0 auto;
+    }
+    .contsub__image {
+        width: 0px;
+        position: relative;
+        margin-top: 160px;
+        height: 0px;
+    }
+    .sub__position {
+        width: 350px;
+        display: block;
+        position: relative;
+        top: 50px;
+        margin-left: 10%;
+    }
+    .sub__hedliner {
+        color: #212121;
+        font-family: "Open Sans";
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 43px;
+        margin-bottom: 45px;
+        margin: auto;
+        text-align: center;
+    }
+    .sub__hedliner:before {
+        content: "";
+        height: 2px;
+        width: 100%;
+        background-color: #ff8b38;
+        position: absolute;
+        width: 64px;
+        top: 60px;
+        left: 40%;
+    }
+    .sub-text {
+        color: #86878b;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        position: relative;
+        margin-bottom: 40px;
+        top: 40px;
+    }
+    .list {
+        display: block;
+        position: relative;
+        margin-bottom: 40px;
+        margin-left: 20%;
+        top: 40px;
+    }
+    /*  */
+    .standart__container {
+        height: 450px;
+        background-color: #f5f5f5;
+    }
+    .standart__wrapper {
+        width: 405px;
+        display: block;
+        position: relative;
+        margin: 0 auto;
+    }
+    .standart__position {
+        display: block;
+        width: 300px;
+        position: relative;
+        top: 55px;
+        margin: auto;
+    }
+    .standart__hedline {
+        color: #212121;
+        font-family: "Open Sans";
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 43px;
+        margin-bottom: 50px;
+        text-align: center;
+        position: relative;
+    }
+    .standart__hedline:before {
+        content: "";
+        height: 2px;
+        width: 100%;
+        background-color: #ff8b38;
+        position: absolute;
+        width: 64px;
+        top: 60px;
+        left: 40%;
+    }
+    .standart__position-img {
+        display: block;
+        position: absolute;
+        top: 70px;
+        width: 0px;
+        left: 1%;
+        transform: translateX(50%);
+    }
+}
