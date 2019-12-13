@@ -1295,6 +1295,11 @@ table {
     width: 489px;
     margin: auto;
 }
+.panel__cont-li-little {
+	display: inline-block;
+	position: relative;
+	margin-left: 50px;
+}
 .panel__icon-facebook-little {
 	transition: 0.3s; 
 	font-size: 25px;
