@@ -273,12 +273,14 @@ table {
 	background-color: #ffffff;
 	width: 100%;
 	height: 105px;
+	padding: 10px 0px 10px;
 }
 .panel__wrapper {
 	width: 1080px;
     display: block;
     position: relative;
-    margin: 0 auto;
+	margin: 0 auto;
+	padding: 0px 20px 0px 20px;
 }
 .panel__heading {
 	color: #333333;
@@ -295,6 +297,87 @@ table {
     font-weight: 400;
     line-height: 20px;
 	width: 370px;
+}
+.panel__sosial {
+	width: 370px;
+	position: relative;
+	display: inline-block;
+}
+.panel__cont {
+	display: block;
+    position: absolute;
+    top: -0px;
+    padding: 30px 0px 0px 0px;
+    margin-left: 439px;
+}
+.panel__icon:hover {
+	transform: scale(1.3);
+}
+.panel__icon-facebook {
+	transition: 0.3s; 
+	font-size: 48px;
+	color: #cccccc;
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+}
+.panel__cont-li {
+	display: inline-block;
+	position: relative;
+	margin-left: 50px;
+}
+.panel__icon-twitter {
+	transition: 0.3s; 
+	font-size: 48px;
+	color: #cccccc;
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+}
+.panel__cont-li-facebook {
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+}
+.panel__icon-google{
+	transition: 0.3s; 
+	font-size: 48px;
+	color: #cccccc;
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+}
+.panel__icon-pint {
+	transition: 0.3s; 
+	font-size: 48px;
+	color: #cccccc;
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+}
+.panel__icon-inst {
+	transition: 0.3s; 
+	font-size: 48px;
+	color: #cccccc;
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+}
+.panel__icon-stumb {
+	transition: 0.3s; 
+	font-size: 48px;
+	color: #cccccc;
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+}
+.panel__icon-rss {
+	transition: 0.3s; 
+	font-size: 48px;
+	color: #cccccc;
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
 }
 /*  */
 .tab__container {
@@ -470,6 +553,13 @@ table {
     margin-left: -18%;
     margin-top: 5px;
 }
+.list__icon-list-icon {
+	font-size: 20px;
+    color: #ff8b38;
+    position: relative;
+    top: 9px;
+    left: 8px;
+}
 .list__title {
 	color: #212121;
 	font-family: "Open Sans - Semibold";
@@ -610,6 +700,27 @@ table {
 	position: relative;
 	left: 40%;
 	margin-bottom: 30px;
+}
+.skils__icon-icon {
+	top: 15px;
+    left: 21px;
+    font-size: 40px;
+    color: #ff8b38;
+    position: relative;
+}
+.skils__icon-icon-board {
+	top: 15px;
+    left: 12px;
+    font-size: 40px;
+    color: #ff8b38;
+    position: relative;
+}
+.skils__icon-icon-lightning {
+	top: 15px;
+    left: 23px;
+    font-size: 40px;
+    color: #ff8b38;
+    position: relative;
 }
 .skils__box {
 	position: relative;
@@ -1175,5 +1286,68 @@ table {
 	text-align: center;
 	position: relative;
     margin: auto;
-    top: 60px;
+    top: 10px;
+}
+.panel__cont-little {
+	display: block;
+    position: relative;
+    padding: 15px 15px 15px 15px;
+    width: 489px;
+    margin: auto;
+}
+.panel__icon-facebook-little {
+	transition: 0.3s; 
+	font-size: 25px;
+	color: #cccccc;
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+}
+.panel__icon-twitter-little {
+	transition: 0.3s; 
+	font-size: 25px;
+	color: #cccccc;
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+}
+.panel__icon-google-little {
+	transition: 0.3s; 
+	font-size: 25px;
+	color: #cccccc;
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+}
+.panel__icon-pint-little {
+	transition: 0.3s; 
+	font-size: 25px;
+	color: #cccccc;
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+}
+.panel__icon-inst-little {
+	transition: 0.3s; 
+	font-size: 25px;
+	color: #cccccc;
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+}
+.panel__icon-stumb-little {
+	transition: 0.3s; 
+	font-size: 25px;
+	color: #cccccc;
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+}
+.panel__icon-rss-little {
+	transition: 0.3s; 
+	font-size: 25px;
+	color: #cccccc;
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
 }
