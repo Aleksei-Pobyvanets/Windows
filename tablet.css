@@ -1,9 +1,10 @@
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     .wrapper {
         width: 700px;
         display: block;
         position: relative;
         margin: 0 auto;
+        padding: 0px 20px 0px 20px;
     }
     .menu {
         background-color: #37495e;
@@ -15,7 +16,8 @@
         display: block;
         position: relative;
         margin: 0 auto;
-        height: 70px;
+        height: 100%;
+        padding: 0px 20px 0px 20px;
     }
     .menu__icon {
         margin-top: 20px;
@@ -66,6 +68,8 @@
         display: block;
         position: relative;
         margin: 0 auto;
+        padding: 0px 20px 0px 20px;
+        height: 100%;
     }
     .headline {
         display: block;
@@ -241,6 +245,8 @@
         display: block;
         position: relative;
         margin: 0 auto;
+        padding: 0px 20px 0px 20px;
+        height: 100%;
     }
     .panel__heading {
         color: #333333;
@@ -278,6 +284,8 @@
         display: block;
         position: relative;
         margin: 0 auto;
+        padding: 0px 20px 0px 20px;
+        height: 100%;
     }
     .tab__wrap {
         position: relative;
@@ -399,6 +407,8 @@
         display: block;
         position: relative;
         margin: 0 auto;
+        padding: 0px 20px 0px 20px;
+        height: 100%;
     }
     .contsub__image {
         width: 350px;
@@ -482,6 +492,8 @@
         display: block;
         position: relative;
         margin: 0 auto;
+        padding: 0px 20px 0px 20px;
+        height: 100%;
     }
     .standart__position {
         display: block;
@@ -510,6 +522,8 @@
         display: block;
         position: relative;
         margin: 0 auto;
+        padding: 0px 20px 0px 20px;
+        height: 100%;
     }
     .block__text:before {
         content: "";
@@ -535,6 +549,8 @@
         display: block;
         position: relative;
         margin: 0 auto;
+        padding: 0px 20px 0px 20px;
+        height: 100%;
     }
     .prising__container {
         height: 1940px;
@@ -582,6 +598,8 @@
         display: block;
         position: relative;
         margin: 0 auto;
+        padding: 0px 20px 0px 20px;
+        height: 100%;
     }
     .reviews__position {
         align-content: center;
@@ -645,6 +663,8 @@
         display: block;
         position: relative;
         margin: 0 auto;
+        padding: 0px 20px 0px 20px;
+        height: 100%;
     }
     .design {
         background: url(img/customPanel.png) no-repeat center;
@@ -662,6 +682,8 @@
         display: block;
         position: relative;
         margin: 0 auto;
+        padding: 0px 20px 0px 20px;
+        height: 100%;
     }
     .contactus__email-all {
         margin-top: -50px;
@@ -710,6 +732,8 @@
         display: block;
         width: 700px;
         margin: 0 auto;
+        padding: 0px 20px 0px 20px;
+        height: 100%;
     }
     .btn-contact {
         background-color: #ff8b38;

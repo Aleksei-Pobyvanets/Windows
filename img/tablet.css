@@ -1,9 +1,10 @@
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 426px){
     .wrapper {
         width: 700px;
         display: block;
         position: relative;
         margin: 0 auto;
+        padding: 0px 20px 0px 20px;
     }
     .menu {
         background-color: #37495e;
@@ -15,7 +16,8 @@
         display: block;
         position: relative;
         margin: 0 auto;
-        height: 70px;
+        height: 100%;
+        padding: 0px 20px 0px 20px;
     }
     .menu__icon {
         margin-top: 20px;
@@ -64,6 +66,8 @@
         display: block;
         position: relative;
         margin: 0 auto;
+        height: 100%;
+        padding: 0px 20px 0px 20px;
     }
     .headline {
         display: block;

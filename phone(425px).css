@@ -1,11 +1,11 @@
-@media screen and (max-width: 425px) {
+@media (max-width: 425px) {
     .menu__wrapper {
         width: 395px;
         display: block;
         position: relative;
         margin: 0 auto;
         padding: 0px 15px 0px 15px;
-        height: 70px;
+        height: 100%;
     }
     .menu {
         background-color: #37495e;
@@ -65,6 +65,7 @@
         position: relative;
         margin: 0 auto;
         padding: 0px 15px 0px 15px;
+        height: 100%;
     }
     .modern {
         position: relative;
@@ -129,6 +130,7 @@
         position: relative;
         margin: 0 auto;
         padding: 0px 15px 0px 15px;
+        height: 100%;
     }
     .panel__heading {
         color: #333333;
@@ -224,6 +226,7 @@
         position: relative;
         margin: 0 auto;
         padding: 0px 15px 0px 15px;
+        height: 100%;
     }
     .tabPosition__tab-btn {
         width: 250px;
@@ -271,6 +274,7 @@
         position: relative;
         margin: 0 auto;
         padding: 0px 15px 0px 15px;
+        height: 100%;
     }
     .contsub__image {
         width: 0px;
@@ -333,6 +337,7 @@
         position: relative;
         margin: 0 auto;
         padding: 0px 15px 0px 15px;
+        height: 100%;
     }
     .standart__position {
         display: block;
@@ -380,6 +385,7 @@
         position: relative;
         margin: 0 auto;
         padding: 0px 15px 0px 15px;
+        height: 100%;
     }
     .block__text:before {
         content: "";
@@ -405,6 +411,7 @@
         position: relative;
         margin: 0 auto;
         padding: 0px 15px 0px 15px;
+        height: 100%;
     }
     .prising____position {
         position: relative;
@@ -427,6 +434,7 @@
         position: relative;
         margin: 0 auto;
         padding: 0px 15px 0px 15px;
+        height: 100%;
     }
     .reviews__position {
         align-content: center;
@@ -455,6 +463,7 @@
         position: relative;
         margin: 0 auto;
         padding: 0px 15px 0px 15px;
+        height: 100%;
     }
     .design__position {
         position: relative;
@@ -504,6 +513,7 @@
         position: relative;
         margin: 0 auto;
         padding: 0px 15px 0px 15px;
+        height: 100%;
     }
     .contactus__email-all {
         margin-top: -50px;
@@ -568,6 +578,7 @@
         position: relative;
         margin: 0 auto;
         padding: 0px 15px 0px 15px;
+        height: 100%;
     }
     .panel__wrapper {
         width: 395px;
@@ -575,6 +586,7 @@
         position: relative;
         margin: 0 auto;
         padding: 0px 15px 0px 15px;
+        height: 100%;
     }
     .panel__cont-li-little {
         display: inline-block;

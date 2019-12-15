@@ -53,6 +53,8 @@ table {
 	display: block;
 	position: relative;
 	margin: 0 auto;
+	height: 100%;
+	padding: 0px 20px 0px 20px;
 }
 
 .menu {
@@ -65,7 +67,8 @@ table {
 	display: block;
 	position: relative;
 	margin: 0 auto;
-	height: 70px;
+	height: 100%;
+	padding: 0px 20px 0px 20px;
 }
 .menu__icon {
 	margin-top: 20px;
@@ -113,7 +116,9 @@ table {
 	width: 1080px;
     display: block;
     position: relative;
-    margin: 0 auto;
+	margin: 0 auto;
+	height: 100%;
+	padding: 0px 20px 0px 20px;
 }
 .headline {
 	display: block;
@@ -189,7 +194,7 @@ table {
 	width: 300px;
     position: absolute;
     top: 150px;
-    left: 55%;
+    left: 59%;
     transform: translateX(50%);
 }
 .box__text{
@@ -278,7 +283,9 @@ table {
 	width: 1080px;
     display: block;
     position: relative;
-    margin: 0 auto;
+	margin: 0 auto;
+	height: 100%;
+	padding: 0px 20px 0px 20px;
 }
 .panel__heading {
 	color: #333333;
@@ -305,7 +312,9 @@ table {
 	width: 1080px;
     display: block;
     position: relative;
-    margin: 0 auto;
+	margin: 0 auto;
+	height: 100%;
+	padding: 0px 20px 0px 20px;
 }
 .tab__wrap {
 	position: relative;
@@ -408,7 +417,9 @@ table {
 	width: 1080px;
     display: block;
     position: relative;
-    margin: 0 auto;
+	margin: 0 auto;
+	height: 100%;
+	padding: 0px 20px 0px 20px;
 }
 .contsub__image {
 	width: 453px;
@@ -497,7 +508,9 @@ table {
 	width: 1080px;
     display: block;
     position: relative;
-    margin: 0 auto;
+	margin: 0 auto;
+	height: 100%;
+	padding: 0px 20px 0px 20px;
 }
 .standart__position {
 	display: block;
@@ -554,7 +567,9 @@ table {
 	width: 1080px;
     display: block;
     position: relative;
-    margin: 0 auto;
+	margin: 0 auto;
+	height: 100%;
+	padding: 0px 20px 0px 20px;
 }
 .block__positoin {
 	position: relative;
@@ -735,7 +750,9 @@ table {
 	width: 1080px;
     display: block;
     position: relative;
-    margin: 0 auto;
+	margin: 0 auto;
+	height: 100%;
+	padding: 0px 20px 0px 20px;
 }
 .prising____position {
 	position: relative;
@@ -897,7 +914,9 @@ table {
 	width: 1080px;
     display: block;
     position: relative;
-    margin: 0 auto;
+	margin: 0 auto;
+	height: 100%;
+	padding: 0px 20px 0px 20px;
 }
 .reviews {
 	width: 273px;
@@ -977,6 +996,12 @@ table {
 	height: 320px;
 }
 .design__wrapper {
+	position: relative;
+	margin: auto;
+	display: block;
+	max-width: 1080px;
+	height: 100%;
+	padding: 0px 20px 0px 20px;
 }
 .design__position {
 	position: relative;
@@ -1048,7 +1073,9 @@ table {
 	width: 1080px;
     display: block;
     position: relative;
-    margin: 0 auto;
+	margin: 0 auto;
+	height: 100%;
+	padding: 0px 20px 0px 20px;
 }
 .contactus__email-all {
     margin-top: -50px;
@@ -1159,6 +1186,8 @@ table {
 	display: block;
 	width: 1080px;
 	margin: 0 auto;
+	height: 100%;
+	padding: 0px 20px 0px 20px;
 }
 .footer__footer {
 	width: 320px;
