@@ -654,7 +654,7 @@ table {
 }
 /*  */
 .block {
-	height: 592px;
+	height: auto;
 	background-color: #ffffff;	
 }
 .block__wrapper {
@@ -703,8 +703,6 @@ table {
     display: block;
     top: -30px;
     margin: auto;
-}
-.skils {
 }
 .skils__position {
 	width: 350px;
@@ -770,7 +768,7 @@ table {
 	max-width: 100%;
 	margin: auto;
 	display: inline-block;
-	padding: 0px 10px 0px 10px;
+	padding: 0px 10px 30px 10px;
 }
 .skils {
 	width: 350px;
