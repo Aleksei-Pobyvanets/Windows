@@ -1,4 +1,4 @@
-@media (max-width: 425px) {
+@media (max-width: 425px) and (min-width: 0px){
     .menu__wrapper {
         width: 395px;
         display: block;
@@ -660,5 +660,24 @@
         display: inline-block;
         position: relative;
         text-decoration: none;
+    }
+    .skills {
+        max-width: 350px;
+        position: relative;
+        margin: auto;
+        padding: 0px 20px 0px 20px;
+        display: block;
+    }
+    .contsub {
+        background-color: #ffffff;
+        height: none;
+    }
+    .sub__position {
+        max-width: 350px;
+        display: block;
+        position: relative;
+        top: 50px;
+        margin-left: 10%;
+        
     }
 }

@@ -537,6 +537,13 @@
         margin-left: 45%;
         top: -30px;
     }
+    .skills {
+        max-width: 350px;
+        position: relative;
+        margin: auto;
+        padding: 0px 20px 0px 20px;
+        display: block;
+    }
     .skils {
         width: 350px;
         position: relative;

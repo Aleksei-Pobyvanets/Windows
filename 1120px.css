@@ -1,0 +1,130 @@
+@media (max-width: 1120px) and (min-width: 769px) {
+    .panel {
+        height: 180px;
+    }
+    .panel__sosial {
+        display: block;
+        margin: auto;
+    }
+    .panel__heading {
+        text-align: center;
+        margin: auto;
+    }
+    .panel__text {
+        text-align: center;
+    }
+    .panel__cont {
+        position: relative;
+        margin: auto;
+        max-width: 641px;
+    }
+    /*  */
+    .sub__wrap {
+        display: inline-block;
+        position: absolute;
+        top: 60px;
+        left: 55%;
+    }.sub__wrap {
+        display: inline-block;
+        position: absolute;
+        top: 60px;
+        left: 55%;
+    }
+    .sub__position {
+        max-width: 400px;
+        display: block;
+        position: relative;
+        margin-left: 0px;
+        top: 0px;
+    }
+    /*  */
+    .standart__position-img {
+        display: block;
+        position: absolute;
+        top: 60px;
+        left: 11%;
+        transform: translateX(50%);
+    }
+    /*  */
+    .contactus__email-all {
+        width: 530px;
+        position: relative;
+        display: block;
+        margin: auto;
+    }
+    .contactus__message-posi {
+        display: block;
+        position: relative;
+        top: 30px;
+        max-width: 436px;
+        left: 0%;
+        transform: translateX(0%);
+        margin: auto;
+    }
+    .contactus {
+        height: 930px;
+    }
+    .message {
+        margin-left: 0px; 
+        top: 0px; 
+    }
+    .tabPosition__btn-contact {
+        top: 47px;
+    }
+    .contactus__container-email {
+        top: 0px;
+    }
+    /*  */
+    .prising__container {
+        height: 1900px;
+    }
+    .basicbox__all-conts {
+        position: relative;
+        display: block;
+        width: 343px;
+    }
+    .basicbox-professional {
+        display: inline-block;
+        position: relative;
+        max-width: 343px;
+        margin-left: 0px;
+        margin-top: 45px;
+    }
+    .basicbox-enterprise {
+        display: block;
+        position: relative;
+        max-width: 343px;
+        margin-left: 0px;
+        margin-top: 45px;
+    }
+    .basicbox-basic {
+        position: relative;
+    }
+    .hedline__wrapper {
+        max-width: 1080px;
+        display: block;
+        position: relative;
+        margin: 0 auto;
+        margin-top: -410px;
+        height: 400px;
+        padding: 0px 20px 0px 20px;
+        top: -100px;
+    }
+    .block {
+        height: auto;
+        background-color: #ffffff;
+        padding: 0px 0px 30px 0px;
+    }
+    .contsub {
+        height: auto;
+        background-color: #ffffff;
+        padding: 0px 0px 130px 0px;
+    }
+    .skills {
+        max-width: 350px;
+        position: relative;
+        margin: auto;
+        padding: 0px 20px 0px 20px;
+        display: block;
+    }
+}

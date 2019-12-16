@@ -708,7 +708,8 @@ table {
 }
 .skils__position {
 	width: 350px;
-    display: block;
+	display: block;
+	margin-top: 20px;
 }
 .skils__icon {
 	height: 70px;
@@ -764,13 +765,17 @@ table {
 	text-align: center;
 	width: 350px;
 }
+.skills {
+	position: relative;
+	max-width: 100%;
+	margin: auto;
+	display: inline-block;
+	padding: 0px 10px 0px 10px;
+}
 .skils {
 	width: 350px;
     position: relative;
     display: -webkit-inline-box;
-}
-.skils__position {
-
 }
 .skils__icon {
 	height: 70px;
@@ -814,9 +819,6 @@ table {
 	width: 350px;
     position: relative;
     display: -webkit-inline-box;
-}
-.skils__position {
-
 }
 .skils__icon {
 	height: 70px;
