@@ -116,15 +116,15 @@ table {
 	max-width: 1080px;
     display: block;
     position: relative;
-	margin: 0 auto;
-	height: 100%;
-	top: -500px;
-	height: 100%;
-	padding: 0px 20px 0px 20px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 0px 20px 0px 20px;
 }
 .headline__position {
 	position: absolute;
     display: block;
+    top: 150px;
+    max-width: 525px;
 }
 .headline {
 	display: block;
@@ -197,9 +197,10 @@ table {
 /* box */
 
 .box {
-	width: 300px;
+	max-width: 300px;
     position: absolute;
-    left: 59%;
+    left: 58%;
+    top: 150px;
     transform: translateX(50%);
 }
 .box__text{
