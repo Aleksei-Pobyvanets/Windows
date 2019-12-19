@@ -1,4 +1,4 @@
-@media (max-width: 425px) and (min-width: 0px){
+@media (max-width: 425px) and (min-width: 320px){
     .menu__wrapper {
         width: 395px;
         display: block;
