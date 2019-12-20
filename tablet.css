@@ -730,7 +730,7 @@
         max-width: 530px;
         margin: auto;
         margin-bottom: 130px;
-        left: -50%;
+        left: 0%;
     }
     .message {
         position: relative;

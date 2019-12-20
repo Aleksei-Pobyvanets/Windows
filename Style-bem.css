@@ -1192,18 +1192,20 @@ table {
 }
 .contactus__email-all {
     margin-top: -50px;
-    max-width: 530px;
+    width: 100%;
     position: relative;
     display: inline-block;
 }
 .contactus__email-position {
-	position: relative;
+    position: relative;
     display: inline-block;
+    width: 50%;
 }
 .contactus__container-email {
-	display: block;
-	position: relative;
-	top: 80px;
+    display: block;
+    position: relative;
+    top: 80px;
+    width: 100%;
 }
 .contactus__name {
 	margin-bottom: 30px;
@@ -1245,12 +1247,11 @@ table {
 	font-weight: 400;
 }
 .contactus__message-posi {
-	display: block;
+    display: block;
     position: absolute;
     top: 60px;
-    max-width: 453px;
-    left: 58%;
-	transform: translateX(50%);
+    width: 40%;
+    left: 59%;
 }
 .message {
     position: relative;

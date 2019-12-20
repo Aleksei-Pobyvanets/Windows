@@ -568,7 +568,7 @@
         max-width: 350px;
         margin: auto;
         margin-bottom: 130px;
-        left: -50%;
+        left: 0%;
     }
     .message {
         position: relative;
@@ -693,12 +693,13 @@
         position: relative;
         max-width: 343px;
         margin-left: 0px;
-    }
+        top: 50px;
+    }   
     .basicbox-enterprise {
         display: block;
         position: relative;
         max-width: 343px;
         margin-left: 0px;
-        top: 490px;
+        top: 50px;
     }
 }
