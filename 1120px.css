@@ -28,22 +28,16 @@
     }
     /*  */
     .sub__wrap {
-        display: inline-block;
-        position: absolute;
-        top: 60px;
-        left: 55%;
-    }.sub__wrap {
-        display: inline-block;
-        position: absolute;
-        top: 60px;
-        left: 55%;
+        position: relative;
+        display: -webkit-inline-box;
+        top: 50px;
+        left: 12%;
     }
     .sub__position {
-        max-width: 400px;
+        max-width: 500px;
+        margin-left: 0%;
         display: block;
         position: relative;
-        margin-left: 0px;
-        top: 0px;
     }
     /*  */
     .standart__position-img {
@@ -54,11 +48,11 @@
         transform: translateX(50%);
     }
     /*  */
-    .contactus__email-all {
-        width: 530px;
+    .contactus__email-position {
         position: relative;
-        display: block;
-        margin: auto;
+        display: inline-block;
+        top: -50px;
+        width: 100%;
     }
     .contactus__message-posi {
         display: block;
@@ -73,8 +67,14 @@
         height: 930px;
     }
     .message {
-        margin-left: 0px; 
-        top: 0px; 
+        position: relative;
+        color: #bdbdbd;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        height: 159px;
+        top: 13px;
+        width: 100%;
     }
     .tabPosition__btn-contact {
         top: 47px;
@@ -89,7 +89,7 @@
     .basicbox__all-conts {
         position: relative;
         display: block;
-        width: 343px;
+        max-width: 343px;
     }
     .basicbox-professional {
         display: inline-block;

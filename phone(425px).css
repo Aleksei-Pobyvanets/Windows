@@ -70,7 +70,7 @@
     .modern {
         position: relative;
         margin-bottom: 30px;
-        width: 300px;
+        max-width: 300px;
         top: -60px;
         margin: auto;
         text-align: center;
@@ -83,7 +83,7 @@
         font-weight: 300;
         line-height: 23px;
         margin-bottom: 50px;
-        width: 300px;
+        max-: 300px;
         margin: auto;
         text-align: center;
         top: -40px;
@@ -141,7 +141,7 @@
         font-family: "Open Sans";
         font-size: 20px;
         font-weight: 700;
-        width: 125px;
+        max-width: 125px;
         padding: 20px 0px 12px;
         margin: auto;
     }
@@ -151,7 +151,7 @@
         font-size: 14px;
         font-weight: 400;
         line-height: 20px;
-        width: 400px;
+        max-width: 400px;
         text-align: center;
         margin: auto;
     }
@@ -163,7 +163,7 @@
     .panel__cont {
         display: block;
         position: relative;
-        width: 276px;
+        max-width: 276px;
         padding: 20px 20px 20px 20px;
         margin: auto;
     }
@@ -233,7 +233,7 @@
         height: 100%;
     }
     .tabPosition__tab-btn {
-        width: 250px;
+        max-width: 250px;
         position: absolute;
         top: -170px;
         left: 5%;
@@ -241,7 +241,7 @@
     }
     .tabPosition__heading {
         margin-bottom: 40px;
-        width: 250px;
+        max-width: 250px;
         color: #000000;
         font-family: "Open Sans";
         font-size: 20px;
@@ -250,7 +250,7 @@
     .tabPosition__text {
         position: relative;
         display: block;
-        width: 250px;
+        max-width: 250px;
     }
     .text-lorem {
         color: #86878b;
@@ -260,7 +260,7 @@
         line-height: 20px;
         position: relative;
         margin-bottom: 100px;
-        width: 250px;
+        max-width: 250px;
     }
     .tabPosition__btn {
         position: relative;
@@ -281,17 +281,22 @@
         height: 100%;
     }
     .contsub__image {
-        width: 0px;
+        max-width: 0px;
         position: relative;
         margin-top: 160px;
         height: 0px;
     }
+    .sub__wrap {
+        position: relative;
+        display: -webkit-inline-box;
+        top: -100px;
+        left: 0%;
+    }
     .sub__position {
-        width: 350px;
+        max-width: 500px;
+        margin-left: 0%;
         display: block;
         position: relative;
-        top: 50px;
-        margin-left: 10%;
     }
     .sub__hedliner {
         color: #212121;
@@ -345,7 +350,7 @@
     }
     .standart__position {
         display: block;
-        width: 300px;
+        max-width: 300px;
         position: relative;
         top: 55px;
         margin: auto;
@@ -374,7 +379,7 @@
         display: block;
         position: absolute;
         top: 70px;
-        width: 0px;
+        max-width: 0px;
         left: 1%;
         transform: translateX(50%);
     }
@@ -445,7 +450,7 @@
         display: block;
         position: absolute;
         top: 300px;
-        width: 273px;
+        max-width: 273px;
         left: 18%;
     }
     /*  */
@@ -453,13 +458,13 @@
         background: url(img/customPanel.png) no-repeat center;
         background-size: cover;
         height: 320px;
-        width: 425px;
+        max-width: 425px;
     }
     .design {
         background: url(img/customPanel.png) no-repeat center;
         background-size: cover;
         height: 320px;
-        width: 425px;
+        max-width: 425px;
     }
     .design__wrapper {
         max-width: 395px;
@@ -475,7 +480,7 @@
         top: 30px;
     }
     .design__hedliner {
-        width: 300px;
+        max-width: 300px;
         color: #ffffff;
         font-family: Raleway;
         font-size: 36px;
@@ -521,13 +526,13 @@
     }
     .contactus__email-all {
         margin-top: -50px;
-        width: 350px;
+        max-width: 350px;
         position: relative;
         display: block;
         margin: auto;
     }
     .name-contact {
-        width: 350px;
+        width: 100%;
         height: 31px;
         box-shadow: 0 1px 0 rgba(0, 0, 1, 0.16);
         border: 0px;
@@ -537,7 +542,7 @@
         font-weight: 400;
     }
     .password-contact {
-        width: 350px;
+        width: 100%;
         height: 31px;
         box-shadow: 0 1px 0 rgba(0, 0, 1, 0.16);
         border: 0px;
@@ -547,7 +552,7 @@
         font-weight: 400;
     }
     .email-contact {
-        width: 350px;
+        width: 100%;
         height: 31px;
         box-shadow: 0 1px 0 rgba(0, 0, 1, 0.16);
         border: 0px;
@@ -560,7 +565,7 @@
         display: block;
         position: relative;
         top: 60px;
-        width: 350px;
+        max-width: 350px;
         margin: auto;
         margin-bottom: 130px;
         left: -50%;
@@ -571,9 +576,9 @@
         font-family: "Open Sans";
         font-size: 14px;
         font-weight: 400;
-        width: 350px;
         height: 159px;
         top: 13px;
+        width: 100%;
     }
     /*  */
     .footer__wrapper {
@@ -600,7 +605,7 @@
     .panel__cont-little {
         display: block;
         position: relative;
-        width: 276px;
+        max-width: 276px;
         padding: 20px 20px 20px 20px;
         margin: auto;
     }
@@ -670,13 +675,5 @@
     .contsub {
         background-color: #ffffff;
         height: none;
-    }
-    .sub__position {
-        max-width: 350px;
-        display: block;
-        position: relative;
-        top: 50px;
-        margin-left: 10%;
-        
-    }
+    }   
 }

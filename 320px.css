@@ -79,7 +79,7 @@
     .panel__cont {
         display: block;
         position: relative;
-        width: 276px;
+        max-width: 276px;
         padding: 20px 0px 20px 0px;
         margin: auto;
     }
@@ -124,11 +124,10 @@
         height: 100%;
     }
     .sub__position {
-        max-width: 310px;
+        max-width: 500px;
+        margin-left: 0%;
         display: block;
         position: relative;
-        top: 25px;
-        margin-left: 0%;
     }
     .sub-text {
         color: #86878b;
@@ -367,7 +366,7 @@
         margin: auto;
     }
     .name-contact {
-        max-width: 300px;
+        width: 100%;
         height: 31px;
         box-shadow: 0 1px 0 rgba(0, 0, 1, 0.16);
         border: 0px;
@@ -377,6 +376,7 @@
         font-weight: 400;
     }
     .email-contact {
+        width: 100%;
         height: 31px;
         box-shadow: 0 1px 0 rgba(0, 0, 1, 0.16);
         border: 0px;
@@ -384,10 +384,9 @@
         font-family: "Open Sans";
         font-size: 14px;
         font-weight: 400;
-        max-width: 300px;
     }
     .password-contact {
-        max-width: 300px;
+        width: 100%;
         height: 31px;
         box-shadow: 0 1px 0 rgba(0, 0, 1, 0.16);
         border: 0px;
@@ -410,9 +409,9 @@
         font-family: "Open Sans";
         font-size: 14px;
         font-weight: 400;
-        max-width: 300px;
         height: 159px;
         top: 13px;
+        width: 100%;
     }
     .tabPosition__btn-contact {
         position: relative;
