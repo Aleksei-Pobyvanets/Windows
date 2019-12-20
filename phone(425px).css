@@ -83,7 +83,7 @@
         font-weight: 300;
         line-height: 23px;
         margin-bottom: 50px;
-        max-: 300px;
+        max-width: 300px;
         margin: auto;
         text-align: center;
         top: -40px;
@@ -676,4 +676,29 @@
         background-color: #ffffff;
         height: none;
     }   
+    .basicbox__all-conts {
+        max-width: 300px;
+        position: relative;
+        display: block;
+        margin: 0 auto;
+    }   
+    .basicbox-basic {
+        display: block;
+        position: relative;
+        max-width: 300px;
+        margin-bottom: 470px;
+    }   
+    .basicbox-professional {
+        display: block;
+        position: relative;
+        max-width: 343px;
+        margin-left: 0px;
+    }
+    .basicbox-enterprise {
+        display: block;
+        position: relative;
+        max-width: 343px;
+        margin-left: 0px;
+        top: 490px;
+    }
 }

@@ -92,21 +92,22 @@
         max-width: 343px;
     }
     .basicbox-professional {
-        display: inline-block;
+        display: block;
         position: relative;
         max-width: 343px;
         margin-left: 0px;
-        margin-top: 45px;
+        margin-top: 450px;
     }
     .basicbox-enterprise {
         display: block;
         position: relative;
         max-width: 343px;
         margin-left: 0px;
-        margin-top: 45px;
+        margin-top: 500px;
     }
     .basicbox-basic {
         position: relative;
+        display: block;
     }
     .block {
         height: auto;
