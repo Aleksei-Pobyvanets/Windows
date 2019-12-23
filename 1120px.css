@@ -2,6 +2,12 @@
     .panel {
         height: 180px;
     }
+    .tabPosition__img {
+        display: none;
+    }
+    .tabPosition__tab-btn {
+        max-width: 500px;
+    }
     .hedline__wrapper {
         max-width: 1080px;
         display: block;
@@ -35,9 +41,11 @@
     }
     .sub__position {
         max-width: 500px;
-        margin-left: 0%;
+        margin-left: -15%;
+        height: auto;
         display: block;
         position: relative;
+        padding: 20px;
     }
     /*  */
     .standart__position-img {

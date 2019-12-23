@@ -121,10 +121,10 @@ table {
     padding: 0px 20px 0px 20px;
 }
 .headline__position {
-	position: absolute;
-    display: block;
-    top: 150px;
-    max-width: 525px;
+	position: relative;
+	display: inline-block;
+	top: 150px;
+	max-width: 525px;
 }
 .headline {
 	display: block;
@@ -198,10 +198,10 @@ table {
 
 .box {
 	max-width: 300px;
-    position: absolute;
-    left: 58%;
-    top: 150px;
-    transform: translateX(50%);
+	position: relative;
+	top: 150px;
+	display: inline-block;
+	padding: 0% 0% 0% 24%;
 }
 .box__text{
 	background: #EEEEEE;
@@ -1116,7 +1116,7 @@ table {
 .design__position {
 	position: relative;
     display: block;
-    top: 80px;
+    top: 20%;
 }
 .design__hedliner {
 	max-width: 420px;
