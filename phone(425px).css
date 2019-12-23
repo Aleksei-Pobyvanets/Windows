@@ -119,6 +119,8 @@
         left: 0%;
         transform: translateX(0%);
         top: 100px;
+        display: initial;
+
     }
     /*  */
     .panel {
@@ -236,7 +238,7 @@
         max-width: 250px;
         position: absolute;
         top: -170px;
-        left: 5%;
+        left: 0%;
         transform: translateX(50%);
     }
     .tabPosition__heading {
@@ -289,7 +291,6 @@
     .sub__wrap {
         position: relative;
         display: -webkit-inline-box;
-        top: -100px;
         left: 0%;
     }
     .sub__position {
@@ -297,7 +298,6 @@
         margin-left: 0%;
         display: block;
         position: relative;
-        top: 150px;
     }
     .sub__hedliner {
         color: #212121;
@@ -513,7 +513,7 @@
     }
     /*  */
     .contactus {
-        height: 910px;
+        height: auto;
         background-color: #ffffff;
     }
     .contactus__wrapper {
@@ -681,19 +681,20 @@
         position: relative;
         display: block;
         margin: 0 auto;
+        top: -50px;
     }   
     .basicbox-basic {
         display: block;
         position: relative;
         max-width: 300px;
-        margin-bottom: 470px;
+        margin-bottom: 450px;
     }   
     .basicbox-professional {
         display: block;
         position: relative;
         max-width: 343px;
         margin-left: 0px;
-        top: 50px;
+        top: 610px;
     }   
     .basicbox-enterprise {
         display: block;
@@ -701,5 +702,40 @@
         max-width: 343px;
         margin-left: 0px;
         top: 50px;
+    }
+    .position-img {
+        max-width: 453px;
+        width: 100%;
+        height: auto;
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 10% 0% 0% 0%;
+    }
+    .tabPosition__img {
+        position: absolute;
+        display: none;
+        top: 60px;
+        left: 55%;
+        transform: translateX(50%);
+    }
+    .reviews {
+        display: none;
+    }
+    .reviews-free {
+        max-width: 273px;
+        display: inline-block;
+        position: relative;
+        top: -50px;
+        margin-bottom: 100px;
+        margin: auto;
+        padding: 0px 0px 0px 0px;
+    }
+    .tabPosition__btn-contact {
+        position: relative;
+        display: block;
+        max-width: 180px;
+        margin: auto;
+        top: -15px;
     }
 }

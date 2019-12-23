@@ -346,8 +346,8 @@
         max-width: 300px;
         position: absolute;
         top: -120px;
-        left: 5%;
-        transform: translateX(50%);
+        left: 33%;
+        transform: translateX(0%);
     }
     .tabPosition__heading {
         margin-bottom: 40px;

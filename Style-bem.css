@@ -193,9 +193,7 @@ table {
 	max-width: 135px;
     text-align: center;
 }
-
 /* box */
-
 .box {
 	max-width: 300px;
 	position: relative;
@@ -437,7 +435,7 @@ table {
 	max-width: 300px;
     position: absolute;
     top: -120px;
-    left: 5%;
+    left: 0%;
     transform: translateX(50%);
 }
 .tabPosition__heading {
