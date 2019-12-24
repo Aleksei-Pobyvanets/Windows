@@ -387,6 +387,7 @@
         position: relative;
         margin-bottom: 100px;
         max-width: 400px;
+        display: inline;
     }
     .tabPosition__btn {
         position: relative;
