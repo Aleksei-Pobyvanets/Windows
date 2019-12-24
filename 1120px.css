@@ -92,19 +92,20 @@
     }
     /*  */
     .prising__container {
-        height: 1900px;
+        height: 1850px;
     }
     .basicbox__all-conts {
         position: relative;
         display: block;
         max-width: 343px;
+        top: -100px;
     }
     .basicbox-professional {
         display: block;
         position: relative;
         max-width: 343px;
         margin-left: 0px;
-        margin-top: 450px;
+        margin-top: 520px;
     }
     .basicbox-enterprise {
         display: block;
