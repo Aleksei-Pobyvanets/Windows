@@ -49,7 +49,9 @@
         margin: auto;
         left: 0%;
         transform: translateX(0%);
-        top: 250px;
+        top: 0px;
+        display: block;
+        padding: 10% 0 20%;
     }
     .panel {
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.38);

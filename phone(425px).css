@@ -125,6 +125,7 @@
         transform: translateX(0%);
         top: 0px;
         display: block;
+        padding: 10% 0 20%;
     }
     /*  */
     .panel {
@@ -307,14 +308,15 @@
     .contsub__image {
         max-width: 0px;
         position: relative;
-        margin-top: 160px;
+        margin-top: 0px;
         height: 0px;
+        padding: 6%;
     }
     .sub__wrap {
         position: relative;
         display: -webkit-inline-box;
         left: 0%;
-        top: -100px;
+        top: 0px;
     }
     .sub__position {
         max-width: 500px;
