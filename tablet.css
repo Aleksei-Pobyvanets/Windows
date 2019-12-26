@@ -72,7 +72,7 @@
     /* box */
 
     .banner {
-        height: 640px; 
+        height: auto; 
         background: url("img/banner.png") no-repeat center;
         background-size: cover;
         margin: 0 auto;
@@ -115,31 +115,11 @@
         font-weight: 400;
         text-transform: uppercase;
     }
-    .modern {
-        position: relative;
-        margin-bottom: 80px;
-        max-width: 300px;
-    }
     .headline__text:before {
         max-width: 60px;
         color: #ffffff;
         height: 2px;
         top: 40px;
-    }
-    .headline__text {
-        opacity: 0.8;
-        color: #ffffff;
-        font-family: Raleway;
-        font-size: 16px;
-        font-weight: 300;
-        line-height: 23px;
-        margin-bottom: 50px;
-        max-width: 300px;
-    }
-    .headline__btn {
-        position: relative;
-        display: block;
-        max-width: 300px;
     }
     .btn {
         vertical-align: middle;
@@ -159,10 +139,13 @@
 
     .box {
         max-width: 300px;
-        position: absolute;
+        position: relative;
         height: auto;
-        left: 38%;
-        transform: translateX(50%);
+        left: 0%;
+        transform: translateX(0%);
+        display: block;
+        top: 0;
+        padding: 100px 0;
     }
     .box__text {
         background: #EEEEEE;
@@ -854,5 +837,36 @@
         display: inline-block;
         position: relative;
         text-decoration: none;
+    }
+    .headline__position {
+        position: relative;
+        display: block;
+        top: 0px;
+        max-width: 525px;
+        padding: 10% 0 0;
+        margin: auto;
+    }
+    .modern {
+        position: relative;
+        margin-bottom: 80px;
+        max-width: 500px;
+        text-align: center;
+    }
+    .headline__text {
+        opacity: 0.8;
+        color: #ffffff;
+        font-family: Raleway;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 23px;
+        margin-bottom: 50px;
+        max-width: 500px;
+        text-align: center;
+    }
+    .headline__btn {
+        position: relative;
+        display: block;
+        margin: auto;
+        max-width: 300px;
     }
 }
