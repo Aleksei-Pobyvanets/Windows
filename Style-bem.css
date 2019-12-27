@@ -74,8 +74,10 @@ table {
 	margin-top: 20px;
 }
 .icon {
-	max-width: 190px;
-	height: 29px;
+    max-width: 190px;
+    height: 29px;
+    position: relative;
+    display: -webkit-inline-box;
 }
 .menu__nav {
 	font-family: "Open Sans" ;
@@ -1016,8 +1018,8 @@ table {
 }
 /*  */
 .custom__container {
-	height: 591px;
-	background-color: #ffffff;
+    height: auto;
+    background-color: #ffffff;
 }
 .custom__wrapper {
 	max-width: 1080px;

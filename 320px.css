@@ -21,7 +21,7 @@
         height: 100%;
     }
     .banner {
-        height: 860px;
+        height: auto;
         background: url(img/banner.png) no-repeat center;
         background-size: cover;
         margin: 0 auto;
@@ -90,9 +90,10 @@
         margin: auto;
     }
     .tab__container {
-        height: 950px;
+        height: auto;
         background-color: #f5f5f5;
         width: 100%;
+        padding: 0 0 30%;
     }
     .tab__wrapper {
         max-width: 310px;
@@ -125,7 +126,8 @@
         position: relative;
         display: -webkit-inline-box;
         left: 0%;
-        top: -100px;
+        top: 0px;
+        padding: 0 0 15%;
     }
     .contsub__wrapper {
         max-width: 310px;
