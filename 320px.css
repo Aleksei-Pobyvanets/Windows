@@ -38,20 +38,18 @@
         top: 70px;
     }
     .headline__position {
-        position: absolute;
+        position: relative;
         display: block;
         top: 0px;
         max-width: 525px;
+        padding: 0 0 0;
     }
     .box {
         max-width: 300px;
         position: relative;
         margin: auto;
-        left: 0%;
-        transform: translateX(0%);
-        top: 0px;
         display: block;
-        padding: 10% 0 20%;
+        padding: 15% 0 50%;
     }
     .panel {
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.38);
@@ -108,10 +106,10 @@
         max-width: 300px;
         position: relative;
         left: 0%;
-        top: 25px;
         transform: translateX(0%);
         height: 500px;
         margin: auto;
+        padding: 10% 0 10% 0;
     }
     .tab__wrap {
         position: relative;
