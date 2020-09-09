@@ -519,9 +519,9 @@ table {
 
 .sub__wrap {
     position: relative;
-    display: -webkit-inline-box;
     top: 50px;
-    left: 12%;
+	left: 12%;
+	display: inline-block;
 }
 .sub__position {
 	max-width: 500px;
@@ -765,13 +765,38 @@ table {
 }
 .skills {
 	position: relative;
-	max-width: 100%;
+	max-width: 94%;
 	margin: auto;
 	display: inline-block;
 	padding: 0px 10px 30px 10px;
 }
+.skills__arrow {
+	font-size: 16px;
+	display: block;
+	position: relative;
+	color: #86878b;
+	width: 10px;
+}
+.skills__btn-left{
+	width: 10px;
+    position: relative;
+    height: auto;
+    padding: 15px;
+    text-align: left;
+    display: block;
+    top: 165px;
+}
+.skills__btn-right{
+	width: 10px;
+    position: relative;
+    height: auto;
+    padding: 15px;
+    text-align: right;
+    display: inherit;
+    top: -100px;
+}
 .skils {
-	max-width: 350px;
+	max-width: 320px;
     position: relative;
     display: -webkit-inline-box;
 }
@@ -810,11 +835,11 @@ table {
 	max-width: 350px;
 }
 .skils-position {
-	max-width: 350px;
+	max-width: 320px;
     display: inline-block;
 }
 .skils {
-	max-width: 350px;
+	max-width: 320px;
     position: relative;
     display: -webkit-inline-box;
 }
@@ -853,7 +878,7 @@ table {
 	max-width: 350px;
 }
 .skils-position {
-	max-width: 350px;
+	max-width: 320px;
 	display: inline-block;
 }
 /*  */
